@@ -118,11 +118,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",  # 開発時に静的ファイルを置く場所
-]
+#STATICFILES_DIRS = [
+#    BASE_DIR / "static",  # 開発時に静的ファイルを置く場所
+#]
 
-#STATIC_ROOT = BASE_DIR / 'static'
+STATIC_ROOT = BASE_DIR / 'static'
 
 
 # Default primary key field type
